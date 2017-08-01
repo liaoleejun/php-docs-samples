@@ -16,7 +16,7 @@ This simple command-line application demonstrates how to invoke Google BigQuery 
     ```sh
     $ git clone https://github.com/GoogleCloudPlatform/php-docs-samples
     $ cd php-docs-samples/bigquery/api
-```
+    ```
 4.  **Install dependencies** via [Composer](http://getcomposer.org/doc/00-intro.md).
     Run `php composer.phar install` (if composer is installed locally) or `composer install`
     (if composer is installed globally).
@@ -31,8 +31,9 @@ This simple command-line application demonstrates how to invoke Google BigQuery 
     query         Run a BigQuery query
     schema        Create or delete a table schema in BigQuery
     tables        List BigQuery tables
+    ```
 6. Run `php bigquery.php COMMAND --help` to print information about the usage of each command.
-```
+
 
 ## Contributing changes
 
