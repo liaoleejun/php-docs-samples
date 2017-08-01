@@ -13,7 +13,7 @@ This simple command-line application demonstrates how to invoke Google BigQuery 
     to the path of the JSON key that was downloaded.
 3.  **Clone the repo** and cd into this directory
 
-    ```sh
+    ```
     $ git clone https://github.com/GoogleCloudPlatform/php-docs-samples
     $ cd php-docs-samples/bigquery/api
     ```
@@ -22,7 +22,7 @@ This simple command-line application demonstrates how to invoke Google BigQuery 
     (if composer is installed globally).
 5.  Run `php bigquery.php`. The following commands are available:
 
-    ```sh
+    ```
     browse-table  Browse a BigQuery table
     datasets      List BigQuery datasets
     export        Export data from a BigQuery table into a Cloud Storage bucket
